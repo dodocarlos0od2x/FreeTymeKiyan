@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/org.dian.testviewflow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/black"
+    >
+	
+    <org.taptwo.android.widget.CircleFlowIndicator
+		android:id="@+id/viewflowindic"        
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:padding="10dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+        >
+    </org.taptwo.android.widget.CircleFlowIndicator>
+    
+    <org.taptwo.android.widget.ViewFlow
+        android:id="@+id/viewFlow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        app:sidebuffer="3"
+        >
+    </org.taptwo.android.widget.ViewFlow>
+</RelativeLayout>
