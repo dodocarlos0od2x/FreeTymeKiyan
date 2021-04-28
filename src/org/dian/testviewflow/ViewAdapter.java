@@ -12,9 +12,9 @@ public class ViewAdapter extends BaseAdapter {
 	/**xml view填充器*/
 	private LayoutInflater mInflater;
 	/**要用到的图片id数组*/
-	private int[] coverIds;
+	private Integer[] coverIds;
 	
-	public ViewAdapter(Context context, int[] drawableId) {
+	public ViewAdapter(Context context, Integer[] drawableId) {
 		mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		coverIds = drawableId;
 	}
